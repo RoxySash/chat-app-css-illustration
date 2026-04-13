@@ -1,0 +1,95 @@
+
+/* ------------------- */
+/* Custom properties   */
+/* ------------------- */
+
+:root {
+    --purple-300: hsl(276, 100%, 81%);
+    --purple-600: hsl(276, 55%, 52%); 
+    --gray-500: hsl(270, 7%, 64%);
+    --gray-300: hsl(206, 6%, 79%);
+    --purple-950: hsl(271, 36%, 24%);
+
+      
+
+
+}
+
+
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve centering within parent */
+  min-height: 100vh;
+    font-size: 1rem; /* 16px */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+}
+
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms;
+    animation-iteration-count: 1;
+    transition-duration: 0.01ms;
+    scroll-behavior: auto;
+  }
+}
+
+.container {
+   
+    border: 2px dotted black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.chatapp {
+    width: 15.313rem;
+    height: 31.438rem;
+    max-width: 80%;
+    border: 2px dotted red;
+}
+
+.chatapp-intro {
+    border: 2px dotted yellow;
+    
+}
