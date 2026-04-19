@@ -10,9 +10,15 @@
     --gray-300: hsl(206, 6%, 79%);
     --purple-950: hsl(271, 36%, 24%);
 
+    --pink-500: hsl(293, 100%, 63%);
+    --purple-500: hsl(264, 100%, 61%);
+
+    --white: hsl(0, 100%, 100%);
+    --gray: hsl(270, 20%, 96%);
+    --pink: hsl(289, 100%, 72%);
       
 
-
+  
 }
 
 
@@ -41,6 +47,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Rubik", sans-serif;
+    background-color: var(--gray-100);
 }
 
 /* 5. Improve media defaults */
@@ -87,9 +94,56 @@ p, h1, h2, h3, h4, h5, h6 {
     height: 31.438rem;
     max-width: 80%;
     border: 2px dotted red;
+    border-radius: 2%;
+    padding: 1.0rem;
+    background-color: var(--gray);
 }
 
 .chatapp-intro {
     border: 2px dotted yellow;
     
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.top-chat {
+  background: linear-gradient(0.27turn, var(--purple-500), var(--pink-500));
+  border-radius: 2em 2em 0.4em 0.4em;
+}
+
+.gray-text {
+  background-color: var(--gray-500);
+  margin-bottom: 1rem;
+  color: var(--purple-600);
+  font-size: 0.67rem;
+  width: 10rem;
+  border-radius: 1.5em 1.5em 1.5em 0.5em;
+  padding: 0.5rem;
+}
+
+.white-text {
+   background-color: var(--white);
+  margin-bottom: 1rem;
+  color: var(--gray-500);
+  font-size: 0.67rem;
+  width: 10rem;
+  border-radius: 1.5em 1.5em 0.5em 1.5em;
+  padding: 0.5rem;
+  
+}
+
+.dogs {
+  border-radius: 0.6em;
+  
+}
+
+.pic-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 0.5em;
+  padding-bottom: 0.6rem;
 }
