@@ -1,34 +1,32 @@
-
 /* ------------------- */
 /* Custom properties   */
 /* ------------------- */
 
 :root {
-    --purple-300: hsl(276, 100%, 81%);
-    --purple-600: hsl(276, 55%, 52%); 
-    --gray-500: hsl(260, 30%, 90%);
-    --gray-500-text: hsl(280, 8%, 70%);
-    --gray-300: hsl(206, 6%, 79%);
-    --purple-950: hsl(271, 36%, 24%);
+  --purple-300: hsl(276, 100%, 81%);
+  --purple-600: hsl(276, 55%, 52%);
+  --gray-500: hsl(260, 30%, 90%);
+  --gray-500-text: hsl(280, 8%, 70%);
+  --gray-300: hsl(206, 6%, 79%);
+  --purple-950: hsl(271, 36%, 24%);
+  --Gray-new-500: hsl(270, 7%, 64%);
 
-    --pink-500: hsl(293, 100%, 63%);
-    --purple-500: hsl(264, 100%, 61%);
+  --pink-500: hsl(293, 100%, 63%);
+  --purple-500: hsl(264, 100%, 61%);
 
-    --white: hsl(0, 100%, 100%);
-    --gray: hsl(270, 20%, 96%);
-    --pink: hsl(289, 100%, 72%);
-      
-
-  
+  --white: hsl(0, 100%, 100%);
+  --gray: hsl(270, 20%, 96%);
+  --pink: hsl(289, 100%, 72%);
 }
-
 
 /* ------------------- */
 /* Reset               */
 /* ------------------- */
 
 /* 1. Use a more-intuitive box-sizing model */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -42,35 +40,48 @@ body {
   line-height: 1.5;
   /* 4. Improve centering within parent */
   min-height: 100vh;
-    font-size: 1rem; /* 16px */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Rubik", sans-serif;
-    background-color: var(--gray-500); /* remove this color later*/
-
+  font-size: 1rem; /* 16px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  background-color: var(--white); /* remove this color later*/
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
 }
 
 /* 5. Improve media defaults */
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
 
 /* 6. Inherit fonts for form controls */
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
 /* 7. Avoid text overflows */
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
 
-
 /* remove animations for people who've turned them off */
-@media (prefers-reduced-motion: reduce) {  
+@media (prefers-reduced-motion: reduce) {
   *,
   *::before,
   *::after {
@@ -82,80 +93,149 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-   
-    border: 2px dotted black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .chatapp {
-    width: 15.313rem;
-    height: 35.438rem;
-    max-width: 80%;
-    border: 2px dotted red;
-    border-radius: 20px;
-    padding: 1.0rem;
-    background-color: var(--gray);
+  width: 14.313rem;
+  height: 31.438rem;
+  border-radius: 20px;
+  background-color: var(--gray);
 }
 
 .chatapp-outer {
-   width: 15.113rem;
-    height: 36.438rem;
-    border-radius: 20px;
-    border: 2px dotted purple;
-    
-   
-    background-color: var(--white);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.chatapp-intro {
-    border: 2px dotted yellow;
-    
+  width: 15.113rem;
+  height: 32.438rem;
+  border-radius: 20px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 9px 10px 50px var(--gray-300);
 }
 
 .avatar {
   border-radius: 50%;
   border: 2px solid white;
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
 }
+
+.chat-exit {
+  font-size: 0.87rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.chat-options {
+  font-size: 0.87rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.profile-name {
+  font-size: 0.75rem;
+  color: var(--white);
+  font-weight: 500;
+}
+
+.profile-status {
+  font-size: 0.525rem;
+  color: var(--purple-300);
+  padding-top: 0%;
+}
+
+.prof-name--combo {
+  line-height: 80%;
+}
+
+.profile-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-top {
+  width: 7.89rem;
+  height: 1.66rem;
+  background-color: var(--white);
+  border-radius: 0 0 1.25rem 1.25rem;
+  align-self: center;
+}
+
+.profile-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.875rem 0.625rem;
+}
+.profile-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 8rem;
+}
+
+/*
+.profile-right {
+  border: 2px dashed orange;
+}
+*/
 
 .top-chat {
   background: linear-gradient(0.27turn, var(--purple-500), var(--pink-500));
-  border-radius: 2em 2em 0.4em 0.4em;
+  border-radius: 1.25rem 1.25rem 0.3125rem 0.3125rem;
 }
 
 .gray-text {
   background-color: var(--gray-500);
-  margin-bottom: 1rem;
-  margin-top: 0.8rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
   color: var(--purple-600);
   font-size: 0.63rem;
   width: 10rem;
-  border-radius: 1.5em 1.5em 1.5em 0.5em;
+  border-radius: 0.75rem 0.75rem 0.75rem 0.125rem;
   padding: 0.5rem;
+  line-height: 110%;
 }
 
-.white-text {
-   background-color: var(--white);
-  margin-bottom: 1rem;
+.white-text-one {
+  background-color: var(--white);
+  margin-bottom: 0.5rem;
+  color: var(--gray-500-text);
+  max-width: 67%;
+  font-size: 0.63rem;
+  border-radius: 0.75rem 0.75rem 0.125rem 0.75rem;
+  padding: 0.4rem;
+  line-height: 110%;
+  margin-right: 0.5rem;
+}
+.white-text-two {
+  background-color: var(--white);
+  margin-bottom: 0.5rem;
   color: var(--gray-500-text);
   font-size: 0.63rem;
-  width: 10rem;
-  border-radius: 1.5em 1.5em 0.5em 1.5em;
-  padding: 0.5rem;
-  
+  border-radius: 0.75rem 0.75rem 0.125rem 0.75rem;
+  padding: 0.4rem;
+  line-height: 110%;
+  margin-right: 0.5rem;
+}
+.text-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
 }
 
 .dogs {
-  border-radius: 0.6em;
-  
+  border-radius: 0.5rem;
 }
 
 .pic-area {
@@ -163,5 +243,60 @@ p, h1, h2, h3, h4, h5, h6 {
   flex-direction: row;
   justify-content: flex-end;
   gap: 0.5em;
-  padding-bottom: 0.6rem;
+  padding-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.chatapp-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-info {
+  font-size: 0.9375rem;
+  color: var(--Gray-new-500);
+  text-align: center;
+  max-width: 70%;
+}
+
+h1 {
+  color: var(--purple-950);
+  font-weight: 450;
+  padding-bottom: 0.75rem;
+  padding-top: 2.75rem;
+}
+
+@media (min-width: 30em) {
+  /* … */
+
+  .chatapp-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+
+    width: 395px;
+    text-align: left;
+  }
+
+  .booking-info {
+    text-align: left;
+    max-width: 95%;
+  }
+
+  h1 {
+    padding: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 695px;
+  }
 }

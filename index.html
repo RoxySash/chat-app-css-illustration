@@ -1,81 +1,117 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-<link href="styles.css" rel="stylesheet">
-</head>
-<body>
-  <main class="container">
-    <div class="chatapp-outer">
-  <div class="chatapp">
-  <div class="top-chat">
+    <title>Frontend Mentor | [Chat App CSS Illustration Master]</title>
 
-    <img class="avatar" width="25" height="25" src="./images/avatar.jpg" alt="small profile pic">
-  <div>
-    <p>Samuel Green</p>
-  <p>Available to Walk</p>
-  </div>
-  </div>
 
-  <div class="gray-text">
-  <p>That sounds great. I’d be happy with that.</p>
-  </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="chatapp-outer">
+        <div class="chatapp">
+          <div class="top-chat">
+            <div class="profile-area">
+              <div class="profile-top">
 
-  <div class="gray-text">
-  <p>Could you send over some pictures of your dog, please?</p>
-  </div>
+              </div>
+              <div class="profile-bottom">
+              <div class="profile-left">
+                <p class="chat-exit">&lang;</p>
 
-  <div class="pic-area">
-    <img class="dogs" width="50" height="50" src="./images/dog-image-1.jpg">
-    <img class="dogs" width="50" height="50" src="./images/dog-image-2.jpg">
-    <img class="dogs" width="50" height="50" src="./images/dog-image-3.jpg">
-  </div>
-  <div class="white-text">
-  <p>Here are a few pictures. She’s a happy girl!</p>
-    </div>
-    <div class="white-text">
-  <p>Can you make it?</p>
- </div>
+                <img
+                  class="avatar"
+                  width="25"
+                  height="25"
+                  src="./images/avatar.jpg"
+                  alt="small profile pic"
+                />
+                <div class="prof-name--combo">
+                  <p class="profile-name">Samuel Green</p>
+                  <p class="profile-status">Available to Walk</p>
+                </div>
+              </div>
+              <div class="profile-right">
+                <p class="chat-options">&vellip;</p>
+              </div>
+            </div>
+            </div>
+          </div>
 
- <div class="gray-text">
- <p>
-  She looks so happy! The time we discussed works. How long shall I take her out for?
-</p>
-</div>
-<div>
-  30 minute walk
-  $29
-  </div>
-<div>
-  1 hour walk
-  $49
-</div>
-<div>
-  Type a message...
-  </div>
+          <div class="gray-text">
+            <p>That sounds great. I’d be happy with that.</p>
+          </div>
 
-  </div>
-  </div>
-  <div class="chatapp-intro">
-  <h1>Simple booking</h1>
+          <div class="gray-text">
+            <p>Could you send over some pictures of your dog, please?</p>
+          </div>
 
-  <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
-  your walker and book again all through the chat.</p>
-  </div>
-  </main>
-  
-  
-</body>
+          <div class="pic-area">
+            <img
+              class="dogs"
+              width="40"
+              height="40"
+              src="./images/dog-image-1.jpg"
+            />
+            <img
+              class="dogs"
+              width="40"
+              height="40"
+              src="./images/dog-image-2.jpg"
+            />
+            <img
+              class="dogs"
+              width="40"
+              height="40"
+              src="./images/dog-image-3.jpg"
+            />
+          </div>
+          <div class="text-right">
+            <div class="white-text-one">
+              <p>Here are a few pictures. She’s a happy girl!</p>
+            </div>
+            <div class="white-text-two">
+              <p>Can you make it?</p>
+            </div>
+          </div>
+
+          <div class="gray-text">
+            <p>
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </p>
+          </div>
+          <div>30 minute walk $29</div>
+          <div>1 hour walk $49</div>
+          <div>Type a message...</div>
+        </div>
+      </div>
+      <div class="chatapp-intro">
+        <h1 class="booking-title">Simple booking</h1>
+
+        <p class="booking-info">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </div>
+    </main>
+  </body>
 </html>
