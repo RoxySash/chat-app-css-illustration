@@ -199,8 +199,8 @@ h6 {
   margin-top: 0.5rem;
   margin-left: 0.5rem;
   color: var(--purple-600);
-  font-size: 0.63rem;
-  width: 10rem;
+  font-size: 0.53rem;
+  max-width: 60%;
   border-radius: 0.75rem 0.75rem 0.75rem 0.125rem;
   padding: 0.5rem;
   line-height: 110%;
@@ -211,7 +211,7 @@ h6 {
   margin-bottom: 0.5rem;
   color: var(--gray-500-text);
   max-width: 67%;
-  font-size: 0.63rem;
+  font-size: 0.53rem;
   border-radius: 0.75rem 0.75rem 0.125rem 0.75rem;
   padding: 0.4rem;
   line-height: 110%;
@@ -221,7 +221,7 @@ h6 {
   background-color: var(--white);
   margin-bottom: 0.5rem;
   color: var(--gray-500-text);
-  font-size: 0.63rem;
+  font-size: 0.53rem;
   border-radius: 0.75rem 0.75rem 0.125rem 0.75rem;
   padding: 0.4rem;
   line-height: 110%;
@@ -266,6 +266,42 @@ h1 {
   font-weight: 450;
   padding-bottom: 0.75rem;
   padding-top: 2.75rem;
+}
+
+.purple-price {
+  width: 9.89rem;
+  height: 1.89rem;
+  background: linear-gradient(0.27turn, var(--purple-500), var(--pink-500));
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  color: var(--white);
+  font-size: 0.53rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem;
+  border-radius: 0.75rem 0.75rem 0.75rem 0.125rem;
+
+
+}
+
+.tiny-circle {
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+  border: 1px solid var(--white);
+  margin-right: 0.266rem;
+}
+
+.walktime {
+  display: flex;
+  flex-direction: row;
+}
+
+.price-tag {
+  font-size: 0.78rem;
+  font-weight: 600;
 }
 
 @media (min-width: 30em) {
