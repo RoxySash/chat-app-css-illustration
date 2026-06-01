@@ -391,6 +391,6 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 695px;
+    max-width: 695px;
   }
 }
