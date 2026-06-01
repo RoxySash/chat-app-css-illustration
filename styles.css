@@ -103,6 +103,19 @@ h6 {
   z-index: -1;
 
 }
+
+.gray-bg {
+  position: fixed;
+  width: 20rem;
+  height: 35rem;
+  background-color: var(--gray);
+  border-radius: 200px;
+  bottom: -200px;
+  right: -150px;
+  z-index: -1;
+
+}
+
 .container {
   display: flex;
   flex-direction: column;
