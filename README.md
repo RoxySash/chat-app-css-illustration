@@ -62,6 +62,7 @@ To see how you can add code snippets, see below:
 ```html
 <p>Vertical Ellipsis: &vellip;</p>
 <p>Less-Than Sign: &lang;</p>
+<p>Greater-Than Sign: &gt;</p>
 ```
 ```css
 .chat-exit {
@@ -93,7 +94,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [Entity refernce for vertical elipse and less than sign](https://html.spec.whatwg.org/multipage/named-characters.html) - This helped me for find the unicode for the (:) and (<). 
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Px to Rem](https://elementor.com/blog/px-to-rem/) - This is an amazing article which helped me with calculating my rem amounts. I'd recommend it to anyone still struggling with this.
 
 
 ### AI Collaboration
