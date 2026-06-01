@@ -143,8 +143,8 @@ h6 {
 .avatar {
   border-radius: 50%;
   border: 2px solid white;
-  padding-left: 0.125rem;
-  padding-right: 0.125rem;
+  margin-left: 0.125rem;
+  margin-right: 0.125rem;
 }
 
 .chat-exit {
@@ -372,7 +372,7 @@ h1 {
     align-items: flex-start;
     margin: 0;
     padding: 0;
-    padding-left: 2rem;
+    padding-left: 4rem;
     width: 395px;
     text-align: left;
   }
