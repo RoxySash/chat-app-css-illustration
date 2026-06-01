@@ -392,5 +392,6 @@ h1 {
     justify-content: space-between;
     align-items: center;
     max-width: 695px;
+    gap: 4rem;
   }
 }
