@@ -22,17 +22,14 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
 Users should be able to:
 
 - View the optimal layout for the component depending on their device's screen size
-- **Bonus**: See the chat interface animate on the initial load
+
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop View](./images/Screenshot%20Desktop%20BG.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![Mobile View](./images/Screenshot%20Mobile%20View.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
 
 ### Links
@@ -52,7 +49,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Something as simple as a vertical ellipsis sent me down a rabbit hole, which led me to discover HTML entities and unicode characters.
 
 To see how you can add code snippets, see below:
 
@@ -74,18 +71,11 @@ To see how you can add code snippets, see below:
   color: var(--white);
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I need to work at a fast pace. I will use a timer on my next challenges.
 
 
 ### Useful resources
@@ -101,8 +91,7 @@ AI wasnt used for this challenge I will leave the docs for the agents in this fi
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@RoxySash](https://www.frontendmentor.io/profile/RoxySash)
 
 
 
